@@ -12,8 +12,8 @@
   height: 100%;
   border-radius: 1%;
   width: 100%;
-  left: 0px;
-  top: 0px;
+  left: 0%;
+  top: 0%;
   z-index: 1;
 }
 
@@ -55,7 +55,6 @@ h1 {
   position: absolute;
   font-size: 200%;
   text-align: center;
-
   width: 50%;
   height: 50%;
   margin-top: 10%;
@@ -152,8 +151,7 @@ h2 {
   z-index: 9;
   line-height: 50px;
   background-color: rgb(251, 242, 242);
-  /* background-color: white; */
-  border: solid rgb(191, 102, 102);;
+  border: solid white;
   border-radius: 2%;
   width: 700px;
   height: 400px;
@@ -182,7 +180,7 @@ h3 {
   margin-top: 13%;
   font-size: 130%;
   line-height: 150%;
-  border: solid 3px rgb(191, 102, 102);
+  border: solid 3px white;;
   border-radius: 2%;
   padding: 20px;
   width: 25%;
@@ -198,7 +196,7 @@ h3 {
   margin-top: 13%;
   font-size: 130%;
   line-height: 300%;
-  border: solid 3px rgb(191, 102, 102);
+  border: solid 3px white;;
   border-radius: 2%;
   padding: 20px;
   width: 25%;
@@ -215,3 +213,5 @@ hr {
   height: 3px;
   background-color: rgb(191, 102, 102);
 }
+
+/* @media only screen and (max-width: N px) */
