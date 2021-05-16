@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.container {
+  min-width: 100%;
+  width: 100%;
+}
+
+.container-fluid {
+  display: flex;
+  background-color: rgb(191, 102, 102);
+  position: fixed;
+  top: 0;
+  opacity: 0.8;
+  z-index: 20;
+}
+
+.container-fluid:hover {
+  opacity: 1;
+}
+
+.nav-link {
+  opacity: 0.8;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+#fundo1 {
+  display: flex;
+  position: absolute;
+  min-height: 100vh;
+  height: 100%;
+  border-radius: 1%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white!important;
+  margin-right: 60px;
+  margin-left: 60px;
+  font-family: monospace;
+  font-size: 130%;
+}
+
+#first-part {
+  display: flex;
+  min-height: 97.5vh;
+}
+
+#minha-foto {
+  display: flex;
+  position: absolute;
+  min-height: 35vh;
+  min-width: 35vh;
+  width: 10%;
+  height: 10%;
+  border: solid 5px rgb(191, 102, 102);
+  border-radius: 50%;
+  top: 40%;
+  margin-left: 10%;
+  z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+  #minha-foto{
+    min-height: 20vh;
+    min-width: 20vh;
+    top: 25%;
+    border: solid 3px rgb(191, 102, 102);
+    left: 12%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+  }
+}
+
+h1 {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  margin-top: 10%;
+  margin-left: 13%;
+  z-index: 4;
+}
+
+@media screen and (max-width: 600px) {
+  #secound-part {
+    display: flex;
+  }
+}
+
+div h2 {
+  height: 50px;
+  padding: 5%;
+}
+
+#secound-part {
+  display: flex;
+  min-height: 100vh;
+  background-color: rgb(238, 229, 229);
+}
+
+#sobre {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  text-align: justify;
+  background-color: rgb(246, 243, 243);
+  border: solid white;
+  border-radius: 2%;
+  margin-right: 10%;
+  line-height: 200%;
+}
+
+h3 {
+  font-size: 130%;
+  text-align: center;
+}
+
+#licoes-aprendidas{
+  display: flex;
+  font-size: 130%;
+  line-height: 150%;
+  border: solid white;
+  border-radius: 2%;
+  padding: 2%;
+  background-color: rgb(246, 243, 243);
+  max-width: 60%;
+  max-height: 88%;
+  margin-left: 20%;
+}
+
+#licoes-aprender{
+  display: flex;
+  font-size: 130%;
+  line-height: 200%;
+  border: solid white;
+  border-radius: 2%;
+  padding: 2%;
+  background-color: rgb(246, 243, 243);
+  max-width: 60%;
+  max-height: 88%;
+  margin-left: 20%;
+}
+/* ATÉ AQUI ESTÁ OK */
+#third-part {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: rgb(245, 245, 245);
+}
+
+footer {
+  display: flex;
+  background-color: rgb(191, 102, 102);
+  height: 8%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  position: absolute;
+  opacity: 1;
+  align-items: center;
+  border-radius: 1%;
+  z-index: 8;
+}
+
+ul {
+  list-style: none;
+  max-height: 70%;
+}
+
+hr {
+  height: 3px;
+  background-color: rgb(191, 102, 102);
+}
