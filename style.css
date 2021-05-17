@@ -5,6 +5,26 @@
   font-size: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  #minha-foto{
+    min-height: 20vh;
+    min-width: 20vh;
+    top: 25%;
+    border: solid 3px rgb(191, 102, 102);
+    left: 12%;
+  }
+
+  h1 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+  }
+
+  #secound-part {
+    display: flex;
+  }
+}
+
 .container {
   min-width: 100%;
   width: 100%;
@@ -46,8 +66,6 @@
 a {
   text-decoration: none;
   color: white!important;
-  margin-right: 60px;
-  margin-left: 60px;
   font-family: monospace;
   font-size: 130%;
 }
@@ -71,24 +89,6 @@ a {
   z-index: 2;
 }
 
-@media screen and (max-width: 600px) {
-  #minha-foto{
-    min-height: 20vh;
-    min-width: 20vh;
-    top: 25%;
-    border: solid 3px rgb(191, 102, 102);
-    left: 12%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  h1 {
-    display: flex;
-    position: absolute;
-    top: 10%;
-  }
-}
-
 h1 {
   display: flex;
   position: absolute;
@@ -97,12 +97,6 @@ h1 {
   margin-top: 10%;
   margin-left: 13%;
   z-index: 4;
-}
-
-@media screen and (max-width: 600px) {
-  #secound-part {
-    display: flex;
-  }
 }
 
 div h2 {
@@ -159,6 +153,10 @@ h3 {
   /* margin-left: 20%; */
 }
 
+ul {
+  list-style: none;
+}
+
 #third-part {
   display: flex;
   min-height: 100vh;
@@ -168,16 +166,14 @@ h3 {
 
 footer {
   background-color: rgb(191, 102, 102);
-  height: 8%;
   width: 100%;
   color: white;
   text-align: center;
   position: absolute;
   opacity: 0.8;
-  align-items: center;
   border-radius: 1%;
-  left: 0;
   z-index: 8;
+  left: 0;
 }
 
 footer:hover {
@@ -187,10 +183,3 @@ footer:hover {
 h6 {
   margin-top: 15px;
 }
-/* ATÉ AQUI ESTÁ OK */
-
-
-/* ul {
-  list-style: none;
-  max-height: 70%;
-} */
