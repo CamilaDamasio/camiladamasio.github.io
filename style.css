@@ -63,6 +63,28 @@
   z-index: 1;
 }
 
+#fundo2 {
+  display: flex;
+  position: absolute;
+  min-height: 100vh;
+  height: 100%;
+  border-radius: 1%;
+  width: 100%;
+  left: 0px;
+  z-index: 1;
+}
+
+#fundo3 {
+  display: flex;
+  position: absolute;
+  min-height: 100vh;
+  height: 100%;
+  border-radius: 1%;
+  width: 100%;
+  left: 0px;
+  z-index: 1;
+}
+
 a {
   text-decoration: none;
   color: white!important;
@@ -102,24 +124,30 @@ h1 {
 div h2 {
   height: 50px;
   padding: 5%;
+  z-index: 5;
 }
 
 #secound-part {
   display: flex;
   min-height: 100vh;
-  background-color: rgb(238, 229, 229);
+}
+
+#dados {
+  display: flex;
+  position: absolute;
+  z-index: 4;
 }
 
 #sobre {
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  padding: 1%;
   text-align: justify;
   background-color: rgb(246, 243, 243);
   border: solid white;
   border-radius: 2%;
-  /* margin-right: 10%; */
   line-height: 200%;
+  z-index: 4;
 }
 
 h3 {
