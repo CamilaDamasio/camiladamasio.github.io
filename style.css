@@ -27,6 +27,7 @@
 .container {
   min-width: 100%;
   width: 100%;
+  padding: 0;
 }
 
 .container-fluid {
@@ -121,20 +122,40 @@ h1 {
 }
 
 div h2 {
+  display: flex;
   height: 50px;
-  padding: 5%;
+  padding: 0%;
+  align-items: center;
+  color: white;
+  text-align: center;
   z-index: 5;
 }
 
 #secound-part {
   display: flex;
-  min-height: 100vh;
+  min-height: 100vh !important;
 }
 
 #dados {
   display: flex;
   position: absolute;
+  color: white;
+  padding: 5px 5%;
+  text-align: center;
   z-index: 4;
+}
+
+#div-div-dados {
+  max-width: 50%;
+}
+
+#about {
+  display: flex;
+  max-width: 40%;
+  height: 90%;
+  top: 5px;
+  align-items: center;
+  z-index: 10;
 }
 
 #sobre {
@@ -146,12 +167,16 @@ div h2 {
   border: solid white;
   border-radius: 2%;
   line-height: 200%;
+  height: 75%;
+  align-items: center;
   z-index: 4;
 }
 
 h3 {
+  display: flex;
   font-size: 130%;
   text-align: center;
+  color: white;
 }
 
 #licoes-aprendidas{
@@ -162,9 +187,7 @@ h3 {
   border-radius: 2%;
   padding: 2%;
   background-color: rgb(246, 243, 243);
-  /* max-width: 60%; */
   max-height: 88%;
-  /* margin-left: 20%; */
 }
 
 #licoes-aprender{
@@ -175,16 +198,16 @@ h3 {
   border-radius: 2%;
   padding: 2%;
   background-color: rgb(246, 243, 243);
-  /* max-width: 60%; */
   max-height: 88%;
-  /* margin-left: 20%; */
 }
 
 ul {
   display: flex;
   margin: 0;
+  flex-direction: column;
   list-style: none;
   width: 100%;
+  z-index: 10;
 }
 
 #third-part {
@@ -200,33 +223,38 @@ footer {
   width: 100%;
   min-width: 100%;
   color: white;
-  text-align: center;
+  /* text-align: center; */
   align-items: center;
   opacity: 0.8;
   border-radius: 1%;
   z-index: 8;
   height: 40px;
-  left: 0;
 }
 
 footer:hover {
   opacity: 1;
 }
 
-/* h6 {
+h6 {
   text-align: center;
   margin: 0;
 }
 
-#ft {
+#div-ft {
   display: flex;
-  min-width: 100%;
-} */
+  width: 100%;
+  /* justify-content: center;
+  text-align: center; */
+} 
 
 #div-div-ul {
   width: 100%;
 }
 
 #div-ul {
+  width: 100%;
+}
+
+div #text-footer {
   width: 100%;
 }
