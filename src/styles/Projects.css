@@ -1,0 +1,47 @@
+.projects-body {
+  background-image: url('../images/fundo-projects.png');
+
+  /* Referência de imagem:
+  '<a href="https://pt.vecteezy.com/vetor-gratis/papel-de-parede">
+  Papel De Parede Vetores por Vecteezy</a>'
+  */
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 87vh;
+}
+
+.title-projects {
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  margin-top: 8vh;
+  width: 100vw;
+}
+
+.form-projects {
+  align-items: center;
+  display: flex;
+  height: 64vh;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+  width: 100vw;
+}
+
+.button-link {
+  background-color: rgb(24, 24, 24);
+  border: 3px solid white;
+  border-radius: 7px;
+  color: white;
+  font-size: 2vw;
+  height: 10vh;
+  opacity: 0.8;
+  width: 20vw;
+}
+
+.button-link:hover {
+  border: 3px solid rgb(216, 33, 33);
+  opacity: 1;
+}

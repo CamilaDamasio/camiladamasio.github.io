@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  /* background-color: rgb(191, 102, 102); */
+  background-color: rgb(212, 65, 65);
+
+  width: 100vw;
+  height: 8vh;
+  opacity: 0.9;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header:hover {
+  opacity: 1;
+}
+
+.header h5 {
+  margin: 0;
+  opacity: 0.8;
+}
+
+.header h5:hover {
+  opacity: 1;
+}
+
+button {
+  background-color: rgb(212, 65, 65);
+  text-decoration: none !important;
+  border: none;
+  color: aliceblue;
+  font-family: monospace, sans-serif !important;
+  font-size: 1.8vw !important;
+}
+
+.main-div {
+  height: 100vh;
+}
+
+.footer h6 {
+  align-items: center;
+  background-color: rgb(212, 65, 65);
+  color: aliceblue;
+  display: flex;
+  font-family: monospace, sans-serif !important;
+  font-size: 1vw !important;
+  justify-content: center;
+  height: 5vh;
+  margin: 0;
+  width: 100vw;
+}
+
+.footer h6:hover {
+  opacity: 1;
+}

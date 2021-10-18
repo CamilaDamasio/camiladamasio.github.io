@@ -1,0 +1,17 @@
+.contact-body {
+  background-image: url('../images/fundo-contato.png');
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 87vh;
+}
+
+.title-contact {
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  margin-top: 8vh;
+  width: 77vw;
+}
