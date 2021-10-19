@@ -8,6 +8,7 @@
   opacity: 0.9;
   align-items: center;
   justify-content: space-evenly;
+  padding: 0 ! important;
 }
 
 .header:hover {
@@ -20,6 +21,32 @@
 }
 
 .header h5:hover {
+  opacity: 1;
+}
+
+.container {
+  width: 100vw;
+}
+
+.container-fluid {
+  display: flex;
+  background-color: rgb(212, 65, 65);
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
+  height: 8vh;
+  justify-content: space-evenly;
+}
+
+.container-fluid:hover {
+  opacity: 1;
+}
+
+.nav-link {
+  opacity: 0.9;
+}
+
+.nav-link:hover {
   opacity: 1;
 }
 
