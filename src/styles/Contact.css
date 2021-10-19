@@ -1,9 +1,14 @@
 .contact-body {
   background-image: url('../images/fundo-contato.png');
+  
+  /* Referência de imagem:
+  '<a href="https://pt.vecteezy.com/vetor-gratis/papel-de-parede">
+  Papel De Parede Vetores por Vecteezy</a>'
+  */
   background-size: 100vw 100vh;
   display: flex;
   flex-direction: column;
-  height: 87vh;
+  height: 95vh;
 }
 
 .title-contact {
