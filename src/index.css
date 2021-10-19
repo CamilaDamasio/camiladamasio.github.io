@@ -40,7 +40,6 @@
 .container-fluid {
   display: flex;
   background-color: rgb(212, 65, 65);
-  position: fixed;
   top: 0;
   opacity: 0.9;
   height: 8vh;
