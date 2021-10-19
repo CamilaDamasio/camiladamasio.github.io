@@ -2,7 +2,6 @@
   display: flex;
   /* background-color: rgb(191, 102, 102); */
   background-color: rgb(212, 65, 65);
-
   width: 100vw;
   height: 8vh;
   opacity: 0.9;
@@ -22,6 +21,16 @@
 
 .header h5:hover {
   opacity: 1;
+}
+
+.navbar-nav {
+  height: 8vh;
+  align-items: center;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .container {
