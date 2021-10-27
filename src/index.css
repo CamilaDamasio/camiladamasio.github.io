@@ -41,7 +41,7 @@
   display: flex;
   background-color: rgb(212, 65, 65);
   top: 0;
-  opacity: 0.9;
+  opacity: 0.95;
   height: 8vh;
   justify-content: space-evenly;
 }
