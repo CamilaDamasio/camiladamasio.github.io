@@ -20,3 +20,25 @@
   margin-top: 8vh;
   width: 77vw;
 }
+
+.body-skills {
+  background-color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 77vw;
+  border-radius: 40px;
+  padding: 5vw;
+  height: 68vh;
+}
+
+.hability {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  align-items: center;
+  word-wrap: break-word;
+  margin-bottom: 5vh;
+}
