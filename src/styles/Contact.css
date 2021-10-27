@@ -20,3 +20,45 @@
   margin-top: 8vh;
   width: 77vw;
 }
+
+.info-contact {
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  width: 77vw;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  margin-bottom: 3vh;
+}
+
+.name-contact {
+  display: flex;
+  margin: 0;
+  width: 40vw;
+  color: aliceblue;
+  justify-content: center;
+}
+
+.div-email {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  margin: 0;
+  margin-bottom: 3vh;
+}
+
+.name-email {
+  display: flex;
+  margin: 0;
+  width: 40vw;
+  color: aliceblue;
+  justify-content: center;
+  word-break: break-all;
+}
