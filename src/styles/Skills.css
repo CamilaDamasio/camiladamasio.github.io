@@ -27,18 +27,30 @@
   color: aliceblue;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   width: 77vw;
   border-radius: 40px;
-  padding: 5vw;
+  padding: 3vw;
   height: 68vh;
+  max-height: 70vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-margin: 15vh;
+  justify-content: space-around;
 }
 
 .hability {
   display: flex;
   flex-direction: column;
-  width: 10vw;
   align-items: center;
   word-wrap: break-word;
   margin-bottom: 5vh;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #000;
+  margin: 5px 2px;
+  padding: 0;
+  width: 130px;
+  height: 100px;
+  justify-content: center;
 }
