@@ -24,6 +24,7 @@ body {
   justify-content: center;
   text-align: center;
   width: 42vw;
+  font-weight: bold;
 }
 
 .div-photo {
@@ -32,4 +33,31 @@ body {
   height: 30vh;
   justify-content: center;
   width: 45vw;
+}
+
+@media ( max-width : 768px ) {
+  .my-photo {
+    border: solid 4px rgb(191, 102, 102);
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+  }
+  .div-photo {
+    align-items: center;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    width: 50vw;
+  }
+  .title-name h1{
+    align-items: center;
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    text-align: center;
+    width: 42vw;
+    font-size: 30px;
+    padding: 1vw;
+    font-weight: bold;
+  }
 }

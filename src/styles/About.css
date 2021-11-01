@@ -34,3 +34,19 @@
   line-height: 7vh;
   border-radius: 40px;
 }
+
+@media ( max-width : 768px ) {
+  .body-text {
+    align-items: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    width: 77vw;
+    padding: 8vw;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 4vw;
+    text-align: justify;
+    line-height: 4vh;
+    border-radius: 40px;
+  }
+}
