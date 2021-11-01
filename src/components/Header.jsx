@@ -5,28 +5,38 @@ function Header() {
   const history = useHistory();
 
   return (
-    <header className="header navbar navbar-expand-lg navbar-light bg-light container-fluid">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    <header className="header navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse" id="navbarNav">
           <button type="button" className="navbar-nav" onClick={ () => history.push('/') }>
-            <h5 className="nav-link active nav-item" aria-current="page">Home</h5>
+            <div className="nav-item">
+              <h5 className="nav-link active" aria-current="page">Home</h5>
+            </div>
           </button>
           <button type="button" className="navbar-nav" onClick={ () => history.push('/sobre') }>
-            <h5 className="nav-link nav-item">Sobre</h5>
+            <div className="nav-item">
+              <h5 className="nav-link">Sobre</h5>
+            </div>
           </button>
           <button type="button" className="navbar-nav" onClick={ () => history.push('/habilidades') }>
-            <h5 className="nav-link nav-item">Skills e Conhecimento</h5>
+            <div className="nav-item">
+              <h5 className="nav-link">Skills e Conhecimento</h5>
+            </div>
           </button>
           <button type="button" className="navbar-nav" onClick={ () => history.push('/contato') }>
-            <h5 className="nav-link nav-item">Contato</h5>
+            <div className="nav-item">
+              <h5 className="nav-link">Contato</h5>
+            </div>
           </button>
           <button type="button" className="navbar-nav" onClick={ () => history.push('/projetos') }>
-            <h5 className="nav-link nav-item">Projetos</h5>
+            <div className="nav-item">
+              <h5 className="nav-link">Projetos</h5>
+            </div>
           </button>
         </div>
       </div>

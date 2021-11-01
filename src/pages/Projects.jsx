@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
+// import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 import '../styles/Projects.css';
 
 function Projects() {
@@ -21,7 +22,8 @@ function Projects() {
 
   return (
     <div className="main-div">
-      <Header />
+      {/* <Header /> */}
+      <Navbar />
       <div className="projects-body">
         <div className="title-projects">
           <h1>Projetos</h1>

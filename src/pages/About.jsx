@@ -1,12 +1,14 @@
 import React from 'react';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
+// import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 import '../styles/About.css';
 
 function About() {
   return (
     <div className="main-div">
-      <Header />
+      {/* <Header /> */}
+      <Navbar />
       <div className="about-body">
         <div className="title-about">
           <h1>Sobre</h1>

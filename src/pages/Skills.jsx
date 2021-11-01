@@ -1,12 +1,14 @@
 import React from 'react';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
+// import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 import '../styles/Skills.css';
 
 function Skills() {
   return (
     <div className="main-div">
-      <Header />
+      {/* <Header /> */}
+      <Navbar />
       <div className="skills-body">
         <div className="title-skills">
           <h1>Habilidades</h1>
