@@ -37,11 +37,32 @@
   color: white;
   font-size: 2vw;
   height: 10vh;
-  /* opacity: 0.8; */
   width: 20vw;
 }
 
 .button-link:hover {
   border: 3px solid rgb(216, 33, 33);
   opacity: 1;
+}
+
+@media ( max-width : 768px ) {
+  .form-projects {
+    align-items: center;
+    display: flex;
+    height: 64vh;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .button-link {
+    background-color: rgb(24, 24, 24);
+    border: 3px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+    height: 10vh;
+    width: 40vw;
+  }
 }
